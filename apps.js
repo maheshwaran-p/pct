@@ -128,8 +128,8 @@ const menu = [
       <div class="product" data-name="${item.id}">   
                             <img src=${item.img} width="300" height="300" style="border-radius:3rem;" alt="">
                            
-                                <h3>${item.title}</h3>
-                                <h4 style="text-transform: none;color:rgb(0, 0, 0);align-content:right;padding-top:1rem;">${item.desc} </h4>
+                                <h3 >${item.title}</h3>
+                                <h4 style="text-transform:none;color:#ff0000;padding-top:1rem;justify-content-center; ">${item.desc} </h4>
 
            </div>                 
                         
@@ -144,7 +144,7 @@ const menu = [
                             
                             
                                 <h3>${item.title}</h3>
-                                <h4 style="text-transform: none;color:rgb(0, 0, 0);align-content:right;padding-top:1rem;">${item.desc} </h4>
+                                <h4 style="text-transform:none;color:#ff0000;padding-top:1rem;">${item.desc} </h4>
       </div>
                                 
                             
