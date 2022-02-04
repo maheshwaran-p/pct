@@ -76,7 +76,7 @@
 
       <div class="barra">
         <a class="logo no-margin centrar-texto" href="index.html">
-          <img src="./img/pct.jpg" width="50" height="50" alt="">
+          <img src="./img/pct.jpg" class="im" alt="">
         </a>
       </div>
       <div>
@@ -87,28 +87,74 @@
           <a href="#about">About</a>
         </nav>
         <style>
-          nav {
-            align-items: right;
-            display: flex;
-            gap: 20px;
-            justify-content: right;
-            margin: right 1px;
-            ;
+          @media screen and (min-width: 480px) {
+
+            .im {
+              width: 80px;
+              height: 80px;
+
+            }
+
           }
 
-          nav a {
-            color: rgb(98, 250, 255);
-            font-size: 2.4rem;
-            margin-bottom: 0;
-            opacity: .5;
-            text-align: right;
-            word-spacing: 20px;
+          @media screen and (max-width: 480px) {
+
+            .im {
+              width: 40px;
+              height: 40px;
+            }
+
           }
 
-          nav a:hover {
-            text-decoration: none;
-            color: rgb(0, 153, 255);
-            text-shadow: rgb(69, 1, 255);
+          @media screen and (min-width: 480px) {
+            nav {
+              align-items: right;
+              display: flex;
+              gap: 20px;
+              justify-content: right;
+              margin: right 1px;
+
+            }
+
+            nav a {
+              color: rgb(98, 250, 255);
+              font-size: 2.4rem;
+              margin-bottom: 0;
+              opacity: .5;
+              text-align: right;
+              word-spacing: 20px;
+            }
+
+            nav a:hover {
+              text-decoration: none;
+              color: rgb(0, 153, 255);
+              text-shadow: rgb(69, 1, 255);
+            }
+          }
+
+          @media screen and (max-width: 480px) {
+            .nav {
+              align-items: right;
+              display: flex;
+              gap: 10px;
+              justify-content: right;
+              margin: right 1px;
+            }
+
+            nav a {
+              color: rgb(98, 250, 255);
+              font-size: 2rem;
+              margin-bottom: 0;
+              opacity: .5;
+              text-align: right;
+              word-spacing: 20px;
+            }
+
+            nav a:hover {
+              text-decoration: none;
+              color: rgb(255, 0, 34);
+              text-shadow: rgb(255, 1, 141);
+            }
           }
         </style>
       </div>
